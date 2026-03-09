@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+
+    <!-- ── DIGIT BUTTON ──────────────────────────────────────── -->
+    <style name="BtnDigit">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textColor">@color/btn_digit_text</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:backgroundTint">@color/btn_digit_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="cornerRadius">999dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- ── FUNCTION BUTTON (AC / +/- / %) ───────────────────── -->
+    <style name="BtnFunction">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textColor">@color/btn_function_text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:backgroundTint">@color/btn_function_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="cornerRadius">999dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- ── OPERATOR BUTTON (+, -, ×, ÷) ─────────────────────── -->
+    <style name="BtnOperator">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textColor">@color/btn_operator_text</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:backgroundTint">@color/btn_operator_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="cornerRadius">999dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- ── EQUALS BUTTON ─────────────────────────────────────── -->
+    <style name="BtnEquals">
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textColor">@color/btn_equals_text</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:backgroundTint">@color/btn_equals_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="cornerRadius">999dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+</resources>
