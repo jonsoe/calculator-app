@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="bg_dark">#FF1C1C1E</color>
+    <color name="divider">#FF2C2C2E</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FF8E8E93</color>
+
+    <!-- Button: Digit -->
+    <color name="btn_digit_bg">#FF333333</color>
+    <color name="btn_digit_text">#FFFFFFFF</color>
+    <color name="btn_digit_ripple">#FF505050</color>
+
+    <!-- Button: Function (AC, +/-, %) -->
+    <color name="btn_function_bg">#FF505050</color>
+    <color name="btn_function_text">#FFFFFFFF</color>
+    <color name="btn_function_ripple">#FF707070</color>
+
+    <!-- Button: Operator (+, -, ×, ÷) -->
+    <color name="btn_operator_bg">#FFFF9F0A</color>
+    <color name="btn_operator_text">#FFFFFFFF</color>
+    <color name="btn_operator_ripple">#FFFFB340</color>
+
+    <!-- Button: Equals -->
+    <color name="btn_equals_bg">#FFFF9F0A</color>
+    <color name="btn_equals_text">#FFFFFFFF</color>
+
+    <!-- Status bar -->
+    <color name="colorPrimary">#FF1C1C1E</color>
+    <color name="colorPrimaryDark">#FF1C1C1E</color>
+    <color name="colorAccent">#FFFF9F0A</color>
+</resources>
